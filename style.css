@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,500&display=swap');
 
 
+
+/* common style */
+
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
@@ -25,11 +28,10 @@ header{
     
 }
 
-/* .res{
-    display: inline;
-} */
+
 
 /* header end  */
+/* first part :start */
 .container{
     display: flex;
     /* margin: 0; */
@@ -52,6 +54,7 @@ header{
 .top-flore p{
     font-size: 20px;
 }
+
 .ankor{
     text-decoration: none;
     padding: 10px;
@@ -64,6 +67,10 @@ header{
 .ankor:hover{
     background-color: purple;
 }
+/* first part :end */
+
+
+
 
 /* collection stylesl */
 
@@ -121,7 +128,7 @@ header{
    display: flex;
    align-items: flex-end;
    justify-content: flex-end;
-   /* background-color: wheat; */
+   
    margin-top: 20px;
 
 }
@@ -139,11 +146,10 @@ header{
 
 .last-flore{
     margin: 20px;
-    /* fon; */
+    
 }
- /* .last-flore .last-bandish{
-    font-size: 20px;
-} */
+/* colllection end  */
+ 
 
 /* footer adedd */
 footer {
@@ -157,11 +163,19 @@ footer {
 }
 .last-p{
     position: relative;
-    /* margin-right: 50px; */
+    
     left: 50px;
 }
+footer .fab{
+    font-size: 2em;
+    padding:13px;
 
-
+}
+.fav{
+    position: relative;
+    left: 50px;
+}
+/* footer :end? */
 /* --------------------------------------
 Media Queries
 ----------------------------------- */
@@ -290,3 +304,4 @@ Media Queries
     
   
 }
+/* end of the website style */
